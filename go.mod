@@ -1,4 +1,4 @@
-module icbc-api-sdk-go
+module github.com/ljjdev/icbc-api-sdk-go/icbc-api-sdk-go
 
 go 1.25
 
