@@ -259,8 +259,8 @@ func (c *DefaultClient) Execute(request *ICBCRequest, msgId string, res any) (an
 
 	// 确保响应体被关闭
 	defer func() {
-		if err := response.Body.Close(); err != nil {
-			fmt.Printf("warning: failed to close response body: %v\n", err)
+		if closeErr := response.Body.Close(); closeErr != nil {
+			fmt.Printf("warning: failed to close response body: %v\n", closeErr)
 		}
 	}()
 
