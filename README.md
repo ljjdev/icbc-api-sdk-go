@@ -34,7 +34,7 @@ ICBC API SDK Go 是工商银行API的Go语言实现，参照了官方icbc-api-sd
 ## 安装
 
 ```bash
-go get github.com/your-repo/icbc-api-sdk-go
+go get github.com/ljjdev/icbc-api-sdk-go
 ```
 
 ## 使用示例
